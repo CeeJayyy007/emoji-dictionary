@@ -14,14 +14,14 @@ function App() {
         key = { emojipedia.id}
         emoji = { emojipedia.emoji}
         name = { emojipedia.name}
-        meaning = { emojipedia.meaning}
+        meaning = { emojipedia.meaning.substring(0,99) }
         />
         )
     )} 
 
-    </dl>
+</dl>
 </div>
-);
-}
+  )
+};
 
 export default App;
